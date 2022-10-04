@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Previsão do tempo</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top bg-dark navbar-dark" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/4814/4814268.png" alt="Logo" width="35" height="35"
+                    class="d-inline-block align-text-center">
+                Previsão do tempo
+            </a>
+        </div>
+    </nav>
+
+    <main class="flex-container">
+        <div class="col-8">
+            <input type="text" class="form-control" placeholder="Cidade">
+        </div>
+        <div>
+            <button class="btn btn-light mt-3 mb-3"><img src="https://cdn-icons-png.flaticon.com/512/64/64673.png"
+                    alt="" width="35px" height="35px"></button>
+        </div>
+        <div>
+            <h2 id="local"></h2>
+            <span id="graus"></span>
+        </div>
+        <img src="" id="clima">
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
