@@ -1,4 +1,4 @@
-# previsao-do-tempo
+# Previsão do tempo em JavaScript
 - Projeto com JavaScript que se conecta em uma API para mostrar a previsão do tempo de acordo com a localização inserida pelo usuário.
 </hr>
 
